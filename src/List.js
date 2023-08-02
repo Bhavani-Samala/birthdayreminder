@@ -3,6 +3,7 @@ import React from 'react';
 const List = ({ people }) => {
   return (
     <>
+    console.log("BIRTHDAY REMINDER");
       {people.map((person) => {
         const { id, name, age, image } = person;
         return (
